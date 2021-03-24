@@ -42,7 +42,7 @@
     <div id="poem"></div>
     <script>
       // set up the lists of words
-      const subjects = "You,I,We,They,He,She,God,Humans,Aliens,Trees,Time,The church,The government,The scientists".split(
+      const subjects = "You,I,We,They,He,She,The Lord,Humans,Aliens,Time,The church,The government,The scientists,Mother Nature".split(
           ","
         ),
         verbs = "will,won't,can,can't,should,shouldn't".split(","),
@@ -90,15 +90,15 @@
       // implement the rules of the poem
       function processPoem() {
         counter++;
-        if (counter % 5 === 0) {
+        if (counter % 4 === 0) {
           addBlankLine();
-        } else if (counter % 5 === 2 || counter % 5 === 4) {
+        } else if (counter % 4 === 2 || counter % 4 === 3) {
           // if the second or fourth line add the line with an indent
           addLine(true);
         } else {
           addLine();
         }
-        if (counter > 15) {
+        if (counter > 16) {
           removeFirstLine();
         }
       }

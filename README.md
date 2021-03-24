@@ -1,7 +1,7 @@
-A simple digital poem
+You will commit high treason
 =====================
 
-A simple digital poem that builds each line from three lists created as an example for the Horizons Digital Writing lab.
+A  digital poem that builds each line from three lists created as an example for the Horizons Digital Writing lab.
 
 
 
